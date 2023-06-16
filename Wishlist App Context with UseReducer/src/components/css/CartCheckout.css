@@ -1,0 +1,46 @@
+.home {
+    display: flex;
+}
+
+.left {
+    width: 68%;
+}
+
+.right {
+    width: 30%;
+    height: 100%;
+    background-color: #343a40;
+    float: right;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    margin-top: 15px;
+}
+
+.right > span {
+    padding-bottom: 20px;
+} 
+
+.title {
+    font-size: 30px;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.btn-checkout {
+    height: 40px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:500px) {
+    
+}

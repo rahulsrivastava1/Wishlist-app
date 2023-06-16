@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #343a40;
+    height: 45px;
+}
+
+.list {
+    display: flex;
+    color: white;
+}
+
+.list-item-1 {
+    text-decoration: none;
+    padding: 15px;
+    margin-left: 50px;
+    cursor: pointer;
+    font-size: medium;
+    color: white;
+}
+
+.list-item-2 {
+    text-decoration: none;
+    padding: 15px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: medium;
+    color: white;
+}
+
+a:hover {
+    color: blue;
+}
+
+@media screen and (max-width:500px) {
+    .list-item-1 {
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .list-item-2 {
+        font-size: 20px;
+    }
+}
